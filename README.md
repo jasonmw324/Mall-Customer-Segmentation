@@ -37,24 +37,18 @@ The primary approach for this analysis was **K-Means clustering** to segment cus
 - **Number of Clusters (k):**  
   The optimal number of clusters was determined using the **elbow method** to identify diminishing returns in inertia, **silhouette scores** and **visualizations** to assess cluster separation quality.
 
-- **Cluster Assignment:**  
-  After fitting the model, each customer was assigned to a cluster, and the results were added as a new column `cluster` in the dataset for further analysis.
-
-- **Visualization:**  
-  Cluster separations were visualized across Age, Annual Income, and Spending Score using scatter plots and pair plots to interpret and validate the cluster profiles.
-
-
 ## Executive Summary
 
 The analysis identified **3 distinct customer segments**:
 
-| Cluster | Label                     | Age | Spending Score | Annual Income                                  |
-|---------|------------------------------------|--------------------------------------------------|
-| 1       | Younger, low income, low spending  | Target with promotions or entry-level products |
-| 2       | Middle-aged, high income, high spending | Focus on premium offers, loyalty programs     |
-| 3       | Older, moderate income, moderate spending | Cross-sell, targeted engagement               |
-| 4       | Younger, low income, low spending  | Target with promotions or entry-level products |
-| 5       | Middle-aged, high income, high spending | Focus on premium offers, loyalty programs     |
+| Cluster | Label                     | Age       | Spending Score | Annual Income |
+|---------|---------------------------|-----------|----------------|---------------|
+| 1       | Average Shopper           | 55.64     | 48.85          | 54.38         |
+| 2       | Wealthy but Reserved      | 39.87     | 19.36          | 86.10         |
+| 3       | Luxury Spenders           | 32.88     | 81.53          | 86.10         |
+| 4       | Frugal by Necessity       | 46.25     | 18.35          | 26.75         |
+| 5       | Young, Impulsive Spenders | 25.19     | 62.24          | 41.09         |
+
 
 
 **Interpretation:**  
