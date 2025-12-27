@@ -17,7 +17,7 @@ The dataset contains information on **200 mall customers**, with the following v
 - **gender** – binary indicator of gender (male or female)  
 - **annual_income** – yearly income in thousands  
 - **spending_score** – measure of purchasing behavior
-- 
+
 ## Methods
 
 The primary approach for this analysis was **K-Means clustering** to segment customers based on key continuous features. This was chosen based on the following: 
